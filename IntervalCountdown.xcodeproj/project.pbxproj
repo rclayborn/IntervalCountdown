@@ -12,6 +12,7 @@
 		70D89CF11D88F02F00577254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D89CEF1D88F02F00577254 /* Main.storyboard */; };
 		70D89CF31D88F02F00577254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70D89CF21D88F02F00577254 /* Assets.xcassets */; };
 		70D89CF61D88F02F00577254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D89CF41D88F02F00577254 /* LaunchScreen.storyboard */; };
+		70D89CFE1D88F04000577254 /* PSTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D89CFD1D88F04000577254 /* PSTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		70D89CF21D88F02F00577254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70D89CF51D88F02F00577254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70D89CF71D88F02F00577254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D89CFD1D88F04000577254 /* PSTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		70D89CEA1D88F02F00577254 /* IntervalCountdown */ = {
 			isa = PBXGroup;
 			children = (
+				70D89CFD1D88F04000577254 /* PSTimer.swift */,
 				70D89CEB1D88F02F00577254 /* AppDelegate.swift */,
 				70D89CED1D88F02F00577254 /* ViewController.swift */,
 				70D89CEF1D88F02F00577254 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70D89CFE1D88F04000577254 /* PSTimer.swift in Sources */,
 				70D89CEE1D88F02F00577254 /* ViewController.swift in Sources */,
 				70D89CEC1D88F02F00577254 /* AppDelegate.swift in Sources */,
 			);
